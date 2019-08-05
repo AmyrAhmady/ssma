@@ -4,6 +4,13 @@
     "slug": "ssma",
     "privacy": "public",
     "sdkVersion": "33.0.0",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.iamir.ssma"
+    },
+    "android": {
+      "package": "com.iamir.ssma"
+    },
     "platforms": [
       "ios",
       "android",
@@ -22,9 +29,6 @@
     },
     "assetBundlePatterns": [
       "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    }
+    ]
   }
 }
