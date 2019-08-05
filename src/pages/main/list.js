@@ -87,7 +87,6 @@ export default class ListScreen extends React.Component {
                     }
                     containerStyle={{
                         backgroundColor: '#ccc',
-                        marginTop: Platform.OS === 'android' ? -24 : 0
                     }}
                 />
                 <View style={{ flex: 1, backgroundColor: "#f2f2f2" }}>
