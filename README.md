@@ -22,4 +22,6 @@ npm install  (or use yarn)
 expo start
 ```
 
+You can also use `expo start --web` to run it on your browser as a web app since Expo SDK is now a tri-platform.
+
 latest APK file can be found here: https://github.com/AmyrAhmady/ssma/releases
