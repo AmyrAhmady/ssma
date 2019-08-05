@@ -1,7 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { createStackNavigator, createDrawerNavigator, createAppContainer } from "react-navigation";
-import { heightPercentageToDP, widthPercentageToDP as wp } from 'react-native-responsive-screen';
+import { createStackNavigator, createAppContainer } from "react-navigation";
 
 import ListScreen from './src/pages/main/list.js';
 import ServerScreen from './src/pages/server/server.js';
